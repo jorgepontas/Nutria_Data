@@ -1,15 +1,18 @@
-# Analysis of Nutria Populations and Wild Sightings/Shootings in Germany
-
+# Analysis of Nutria Populations and Wild Sightings/Shootings in Germany 📊🦫🇩🇪
 This repository contains an analysis of the nutria populations and the trends in wild sightings and shootings in Germany. The analysis is based on publicly available data sources and provides insights into the population trends of nutrias as well as changes in sightings and shootings over time.
 
-## Data Sources
+For a more detailed understanding of the methodology and findings of this analysis, please refer to the research paper "Population Dynamics and Human-Wildlife Interactions: A Case Study of Nutria in Germany." The paper examines the factors influencing nutria populations, analyzes the spatiotemporal patterns of wild sightings and shootings, and discusses the implications for wildlife management strategies.
+
+You can access the full paper [here](https://example.com/population-dynamics-nutria-germany) 📄.
+
+## Data Sources 📂
 
 | Dataset                          | Description                                                  | Link                                                                         |
 | -------------------------------- | ------------------------------------------------------------ | ---------------------------------------------------------------------------- |
 | Nutria Populations               | Official nutria population data from BLE (Federal Agency for Agriculture and Food) | [BLE Nutria Population Data](https://www.ble.de/DE/Projekte/Aktuell/Projekte_Vorhaben/Integriertes-Pest-Management/Nutria-Monitoring/Nutria-Monitoring_node.html) |
 | Wild Sightings and Shootings     | Data on nutria sightings and shootings                        | [DJV Wildtierportal](https://www.wildtierportal.de/)                         |
 
-## Dataset Structures
+## Dataset Structures 📋
 
 ### Nutria Populations
 
@@ -28,7 +31,7 @@ This repository contains an analysis of the nutria populations and the trends in
 | Sightings   | Number of wild sightings of nutrias      |
 | Shootings   | Number of nutrias shot by hunters        |
 
-## Analysis Results
+## Analysis Results 📈🔍
 
 The analysis includes the following results:
 
@@ -38,7 +41,7 @@ The analysis includes the following results:
 4. Temporal trend of nutria shootings by hunters.
 5. Comparison of nutria populations with sightings and shootings to identify changes in population activity.
 
-## Data Cleaning
+## Data Cleaning 🧹💻
 
 The cleaning script (`cleaning_script.R`) demonstrates the code used for cleaning the raw data. The script removes missing values, corrects formatting issues, and performs other cleaning operations to prepare the data for analysis.
 
@@ -58,6 +61,3 @@ clean_data <- na.omit(raw_data)
 # Save the cleaned data
 write.csv(clean_data, "clean_data.csv", row.names = FALSE)
 ```
-## License
-
-This project is licensed under the MIT License. For more details, please see the License File.
